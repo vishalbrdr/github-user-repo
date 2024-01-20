@@ -5,7 +5,8 @@ async function getUserRepos(username, page = 1, perpage = 10) {
       `https://api.github.com/users/${username}/repos?per_page=${perpage}&page=${page}`,
       {
         headers: {
-          Authorization: "Bearer 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",
+          Authorization:
+            "Bearer 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",
         },
       }
     );
