@@ -333,6 +333,7 @@ li.topic {
 .pagination {
   margin-top: 5rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 5rem;
@@ -359,6 +360,7 @@ li.topic {
 .pg-ctr {
   display: flex;
   gap: 1rem;
+  flex-wrap: wrap;
 }
 select {
   background: var(--bg);
