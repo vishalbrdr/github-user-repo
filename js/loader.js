@@ -4,7 +4,7 @@ const loader = {
   start: () => {
     loadingIcon.classList.remove("hidden");
   },
-  end: () => {
+  stop: () => {
     loadingIcon.classList.add("hidden");
   },
 };

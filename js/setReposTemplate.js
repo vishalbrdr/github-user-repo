@@ -8,8 +8,6 @@ function setReposTepmplate(repos) {
     prevchild = reposContainer.lastElementChild;
   }
 
-  
-
   repos.forEach((repo) => {
     const userRepo = userReposTemplate.content.cloneNode(true);
 
